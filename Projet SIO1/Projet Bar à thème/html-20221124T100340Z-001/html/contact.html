@@ -1,0 +1,360 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+
+		<title> Sushis Nitchy </title>
+		<meta charset="utf-8">
+		
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css"> 	<!-- pour insérer du bootstrap dans le html--> 
+
+		<link rel="shortcut icon" href="favicon.ico"/>
+			 <link rel="stylesheet" href="logo.css">
+
+
+			 
+			 <script language="javascript"> // premier script java script 
+   	 function afficheMessage(){
+   	 var rep=prompt("D'ou viens le sushi ?");
+   	 if(rep=="chine"||rep=="chine"){ alert("Bonne Reponse !");
+   	 }else{
+   	 alert('Reponse incorrecte !');
+   	 }
+   	 }
+
+   
+function ajouter(objet) {
+   	 document.getElementById("text").value+=objet.value;
+   	  objet.disabled=true;
+   	 if (document.getElementById("text").value=="Le riz avant sushis") {
+  
+   	 alert('BRAVO!!!');
+
+}else
+
+{
+  
+   	 alert('pas encore!!!');
+
+}
+}
+   	 function raz() {
+   	 document.getElementById('text').value=""
+   	 document.getElementById('btn1').disabled=false;
+   	 document.getElementById('btn2').disabled=false;
+   	 document.getElementById('btn3').disabled=false;
+   	 document.getElementById('btn4').disabled=false;
+}
+
+
+max=60;
+         function saisie(){
+            if(document.fo.sms.value.length>max){
+               alert("Vous avez dépassé "+max+" caractères!");
+               document.fo.sms.value=document.fo.sms.value.substring(0,max);
+            }
+            document.fo.restant.value=max-document.fo.sms.value.length;
+         }
+         function init(){
+            document.fo.sms.value="";
+            document.fo.sms.focus();
+            saisie();
+         }  
+
+        
+
+function valider() {
+if (document.getElementById("casea").checked && document.getElementById("caseb").checked && !document.getElementById("casec").checked) {
+alert('Bravo !!!');
+} else {
+alert('Votre réponse est incorrecte...');
+}
+}
+
+       
+
+
+function chargement()
+{
+window.form1.mot.value="";
+nbreperdu=0;
+window.status="Vous avez "+nbreperdu+" erreures";
+document.images[0].src="pendu"+nbreperdu+".JPG";
+document.form1.tester.value="";
+mot=mots[parseInt(Math.random()*10)];
+//alert(mot);
+for(i=0;i<mot.length;i++)
+document.form1.mot.value+="-";
+
+
+}
+
+
+
+function deplace(dx,dy) {
+
+
+document.getElementById('calque').style.top =parseInt(document.getElementById('calque').style.top)+dy+"px";
+document.getElementById('calque').style.left=parseInt(document.getElementById('calque').style.left)+dx+"px";
+
+
+
+}
+
+      </script>
+
+
+
+
+
+
+
+
+	</head>
+
+	<body>
+
+
+		<center>
+		
+		
+
+
+		<h1> SUSHIS NITCHY </h1>
+		
+		<hr>
+		
+		
+		
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+
+		<hr>
+		      <!-- debut du code html pour le menu--> 
+				<div class="m">
+<nav>
+  <ul>
+    <li class="deroulant"><a href="sushis.html">Accueil &ensp;</a> <!-- Bouton afficher et la page qu'elle renvoie -->
+      <ul class="sous">
+        <li><a href="sushis.html">Horraire</a></li>
+        <li><a href="sushis.html">Plat du Chef</a></li>
+        <li><a href="sushis.html">Adresse</a></li>
+      </ul>
+    </li>
+    <li class="deroulant"><a href="carte.html">Carte &ensp;</a> <!-- Bouton afficher et la page qu'elle renvoie -->
+      <ul class="sous">
+        <li><a href="carte.html">Sushis</a></li>
+        <li><a href="carte.html">Menu</a></li>
+        <li><a href="carte.html">Nems</a></li>
+      </ul>
+    </li>
+			<li>
+                <a href="histoire.html">Histoire</a> <!-- Bouton afficher et la page qu'elle renvoie -->
+              </li>
+			<li>
+				<a href="contact.html">Quizz</a> <!-- Bouton afficher et la page qu'elle renvoie -->
+              </li>
+
+  </ul>
+</nav>
+				</div>
+
+	<!-- fin du code html pour le menu--> 
+	<br>
+	
+	
+	
+	<br>
+
+
+								
+
+</center>
+
+
+
+
+			<fieldset> <!-- début du formulaire de la première partie ICIIIIIIIIIIIIII CHANGEMENT AMELIORATION BOOTSTRAP-->   
+
+	<legend><b>Informations complementaire</b></legend>
+
+	<p> Avant de commencer le quizz veuillez nous indiquez quelques informations sur vous.</p> 
+
+
+			<div class="from-group">
+
+			<label for="nom"><strong> Nom: </strong></label>
+				<textarea class="from-control" id=nom rows="2"> </textarea>
+
+				<div class="from-group">
+
+			<label for="prenom"><strong> Prénom: </strong></label>
+				<textarea class="from-control" id=prenom rows="2"> </textarea>
+ 			
+
+				<div class="from-group">
+
+			<label for="mail"><strong> Mail: </strong></label>
+				<textarea class="from-control" id=mail rows="2" > </textarea>
+ 			
+			</fieldset> <!-- fin du formulaire de la première partie ICIIIIIIIIIIIIII CHANGEMENT AMELIORATION BOOTSTRAP-->   
+			
+
+	<br>
+	<br>
+
+	</div>
+
+
+			<fieldset> <!-- début de la première question du quizz -->
+	<legend><b>Quel est LE meilleur accompagnement pour sushis ? </b></legend>
+		
+
+		<input type="radio"> Graine de sézame <img src="images/california.jpg" class= "rounded" style="width:70px;height:55px;">
+		<!-- arrondissement des image pour les bordures  ICIIIIIIIIIIIIII CHANGEMENT AMELIORATION BOOTSTRAP-->
+		<input type="radio"> Ognon frit<img src="images/california-rolls-oignon-frit-saumon-et-avocat.jpg" class= "rounded" style="width:70px;height:55px;">
+		<input type="radio"> Graine de lin <img src="images/futomaki.jpg" class= "rounded" style="width:70px;height:55px;">
+		<input type="radio"> Gingembre <img src="images/cali foie fras.jpg"class= "rounded" style="width:70px;height:55px;"> 
+		<!-- bouton radio permet d'avoir des bouton rond  -->
+
+	<select name="sushis">
+		<option value ="crevette">Crevette</option>
+		<option value ="saumon">Saumon</option>
+		<option value ="surimi">Surimi</option>
+		<option>Thon</option>
+	</select> 
+
+			</fieldset> <!-- fin de la première question du quizz -->
+			
+
+	<br>
+	
+			<fieldset> <!-- début de la deuxième question du quizz -->
+  <legend> <b> Quel est LA meilleure sauce qui accompagne des sushis ? </b> </legend> <!-- Phrase d'introduction de la question -->
+  <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Mayonnaise</label>
+  </div>
+  <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Samourai</label>
+  </div>
+   <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Soja Salé</label>
+  </div>
+   <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Soja Sucré</label>
+  </div>
+   <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Wasabi</label>
+  </div>
+			</fieldset> <!-- fin de la deuxième question du quizz -->
+
+	<br>
+	
+
+			<fieldset> <!-- début de la troisième question du quizz -->
+  <legend> <b> Quel est LE nombre max de sushis que vous pouvez manger ? </b> </legend> <!-- Phrase d'introduction de la question -->
+  
+  <label>Nombre</label>
+  <input type="number"
+    
+ id="nombre" name = "nombre">
+ 
+			</fieldset> <!-- fin de la troisième question du quizz -->
+			
+	<br>
+	<br>
+	<br> 
+	
+
+
+
+
+
+<div style="text-align:center">Cliquer sur le bouton ci-dessous pour pouvoir accéder aux devinettes     :<br>
+    <input type ="button" value="Cliquer" onClick="afficheMessage()"></div>
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+  <div style="text-align:center">Cliquer sur les boutons dans le bon ordre.<br>
+      <input type="button" id="btn1" onClick="ajouter(this)" value="sushis">
+      <input type="button" id="btn2" onClick="ajouter(this)" value="Le ">
+      <input type="button" id="btn3" onClick="ajouter(this)" value="avant ">
+      <input type="button" id="btn4" onClick="ajouter(this)" value="riz ">
+      <input type="text" id="text" size="60" readonly="true" style="background-color:#FFFFFF;border:#FFFFFF none 0px; text-align:center;color:#006600; font-weight:bold">
+      <br>
+      <br>
+        <input type="button" value="Recommencer" onClick="raz()"></div>
+
+
+
+<center>
+
+<div>Parmis les choix ci-dessous lesquelles sont utilisé dans le sushis ?</div>
+<input id="casea" type="checkbox">Riz<br>
+<input id="caseb" type="checkbox">Algue<br>
+<input id="casec" type="checkbox">metal<br>
+<input id="cased" type="checkbox">aluminium<br>
+<input id="casee" type="checkbox">béton<br>
+<div style="text-align:center"><input type="button" value="Valider" onClick="valider()"></div>
+
+</center>
+
+
+<div style="text-align:center">
+<input type="button"  id="button1" value="&uArr;" onClick="deplace(0,-25)">
+
+</div>
+
+<div style="text-align:center">
+<input type="button" id="button1" value="&lArr;" onClick="deplace(-25,0)">
+
+<input type="button"  id="button1" value="&dArr;" onClick="deplace(0,25)">
+
+<input type="button"  id="button1" value="&rArr;" onClick="deplace(25,0)">
+
+
+</div>
+
+
+<div id="calque" style="position:absolute; height: 50px;width: 50px; background-color:red; left:1445px; top:1 470px">&nbsp;</div>
+	</body>
+	
+	
+	
+	
+	</html>

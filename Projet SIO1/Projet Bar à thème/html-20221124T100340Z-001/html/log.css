@@ -1,0 +1,108 @@
+body {
+    font-family: "Rubik";
+	background-color:#EFA785; /* Dédinit la couleur du fond */
+}
+
+h1{
+
+color: black;
+border: 1px solid #ff8000;
+padding: 5px;
+}
+
+h2{
+
+color: black; /* couleur pour les texte en balise h2 */
+
+border: 1px solid #ff8000;
+padding: 5px;
+}
+
+/* debut du css pour le menu */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+nav{ /* lister quel parametre a cete nav */
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FF712E; 
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{ /* lister quel parametre a cete nav */
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table; /* Transformation en tableau */
+    clear: both;
+}
+
+nav a{
+    display: block; /* Transformation en block */
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px; /* marges internes de 10 */
+}
+
+nav a:hover{ /* Nav qui permet de parametrer les differents style quand on passe la souris par dessus */
+    color: yellow;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none; 
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #EBC098;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block; /* Transformation en block */
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    padding: 10px; /* marges internes de 10px */
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1); /* Définit les couleurs du fond d'écran avec le RGB */
+}
+.deroulant > a::after{ /* Paramètres pour le bouton du menu spécial pour déroulant */
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+/* fin du css pour le menu */
+
+
+fieldset {
+	
+	    background-color: #FFFFFF; 
+}
+
+
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+
+		<title> Sushis Nitchy </title>
+		<metacharset="utf-8">
+		
+		<link rel="shortcut icon" href="favicon.ico"/>
+			 <link rel="stylesheet" href="logo.css">
+			 
+	</head>
+
+	<body>
+		<center>
+		
+		
+
+
+		<h1> SUSHIS NITCHY </h1>
+		
+		<hr>
+		
+		
+		
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+
+		<hr>
+		      <!-- debut du code html pour le menu--> 
+				<div class="m">
+<nav>
+  <ul>
+    <li class="deroulant"><a href="sushis.html">Accueil &ensp;</a>
+      <ul class="sous">
+        <li><a href="sushis.html">Horraire</a></li>
+        <li><a href="sushis.html">Plat du Chef</a></li>
+        <li><a href="sushis.html">Adresse</a></li>
+      </ul>
+    </li>
+    <li class="deroulant"><a href="carte.html">Carte &ensp;</a>
+      <ul class="sous">
+        <li><a href="carte.html">Sushis</a></li>
+        <li><a href="carte.html">Menu</a></li>
+        <li><a href="carte.html">Nems</a></li>
+      </ul>
+    </li>
+			<li>
+                <a href="histoire.html">Histoire</a>
+              </li>
+			<li>
+				<a href="contact.html">Quizz</a>
+              </li>
+  </ul>
+</nav>
+				</div>
+
+	<!-- fin du code html pour le menu--> 
+	<br>
+	
+	
+	
+	<br>
+
+
+								
+
+</center>
+
+
+
+
+			<fieldset> <!-- début du formulaire de la première partie -->   
+
+	<legend><b>Informations complementaire</b></legend>
+
+	<p> Avant de commencer le quizz veuillez nous indiquez quelques informations sur vous.</p> 
+	Nom: <input type="text" style="width:120px;">
+	Prenom: <input type="text" style="width:140px;"><br />
+	<br>
+	Mail: <input type="text" style="width:120px;"><br />
+	
+			</fieldset> <!-- fin du formulaire de la première partie -->   
+			
+
+	<br>
+	<br>
+			<fieldset> <!-- début de la première question du quizz -->
+	<legend><b>Quel est LE meilleur accompagnement pour sushis ? </b></legend>
+		<input type="radio"> Graine de sézame <img src="https://www.sushiprod.com/wp-content/uploads/2011/05/california.jpg"style="width:70px;height:55px;">
+		<input type="radio"> Ognon frit<img src="https://www.little-sushi.fr/450-home_default/california-rolls-oignon-frit-saumon-et-avocat.jpg"style="width:70px;height:55px;">
+		<input type="radio"> Graine de lin <img src="http://chrono-sushi.fr/commande-sushi/29-69-thickbox/futomaki.jpg"style="width:70px;height:55px;">
+		<input type="radio"> Gingembre <img src="https://www.sushikoste.com/photo-sushi/cali%20foie%20fras.jpg"style="width:70px;height:55px;"> <!-- bouton radio permet d'avoir des bouton rond  -->
+
+	<select name="sushis">
+		<option value ="crevette">Crevette</option>
+		<option value ="saumon">Saumon</option>
+		<option value ="surimi">Surimi</option>
+		<option>Thon</option>
+	</select> 
+
+			</fieldset> <!-- fin de la première question du quizz -->
+			
+
+	<br>
+	
+			<fieldset> <!-- début de la deuxième question du quizz -->
+  <legend> <b> Quel est LA meilleure sauce qui accompagne des sushis ? </b> </legend> <!-- Phrase d'introduction de la question -->
+  <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Mayonnaise</label>
+  </div>
+  <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Samourai</label>
+  </div>
+   <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Soja Salé</label>
+  </div>
+   <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Soja Sucré</label>
+  </div>
+   <div>
+    <input type="checkbox"> <!-- checkbox permet d'avoir des boutton a cocher -->
+    <label>Wasabi</label>
+  </div>
+			</fieldset> <!-- fin de la deuxième question du quizz -->
+
+	<br>
+	
+
+			<fieldset> <!-- début de la troisième question du quizz -->
+  <legend> <b> Quel est LE nombre max de sushis que vous pouvez manger ? </b> </legend> <!-- Phrase d'introduction de la question -->
+  
+  <label>Nombre</label>
+  <input type="number"
+    
+ id="nombre" name = "nombre">
+ 
+			</fieldset> <!-- fin de la troisième question du quizz -->
+			
+	<br>
+	<br>
+	<br> 
+	
+
+	<input type="submit" style="width:120px;"
+	
+	value= "Envoyer"> <!-- bouton pour envoyer les réponses du quizz-->
+
+	</body>
+	
+	
+	
+	
+	</html>

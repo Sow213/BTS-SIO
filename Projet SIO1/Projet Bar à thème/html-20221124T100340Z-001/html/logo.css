@@ -1,0 +1,173 @@
+body {
+    font-family: "Rubik";
+	background-color:#EFA785;
+
+}
+
+#fig{
+	color:black;
+
+	border: 5px solid #ff8000;
+	
+}
+
+
+img{
+
+    width: 50%;
+
+}
+h1{
+
+color: black;/* couleur pour les texte en balise h1 */
+border: 1px solid #ff8000; /*définit longueur de la bordure */
+padding: 5px; /* marges internes de 5 */
+}
+
+h2{
+
+color: black; /* couleur pour les texte en balise h2 */
+border: 1px solid #ff8000; /*définit longueur de la bordure */
+padding: 5px; /* marges internes de 5px */
+}
+
+
+/* debut du css pour le menu */
+*{
+    margin: 0px;
+    padding: 0px; /* Suppression des marges internes */
+    font-family: Avenir, sans-serif;
+}
+
+nav{ /* lister quel parametre a cete nav */
+    width: 100%; /* Largeur des liens */ 
+    margin: 0 auto;
+    background-color: #FF712E; 
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{ /* lister quel parametre a cete nav */
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    width: 25%; /* Largeur des liens */ 
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table; /* Transformation en tableau */
+    clear: both;
+}
+
+nav a{
+    display: block; /* Transformation en block */
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+
+nav a:hover{ /* Nav qui permet de parametrer les differents style quand on passe la souris par dessus */
+    color: yellow;
+    border-bottom: 2px solid gold;
+}
+
+.sous{
+    display: none; 
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #EBC098;
+    position: absolute;
+    width: 100%; /* Largeur des liens */ 
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block; /* Transformation en block */
+}
+.sous li{
+    float: none;
+    width: 100%; /* Largeur des liens */ 
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1); /* Définit les couleurs du fond d'écran avec le RGB */
+}
+.deroulant > a::after{ /* Paramètres pour le bouton du menu spécial pour déroulant */
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+  margin: 50px 20px;
+  height: 1500px;
+}
+/* fin du css pour le menu */
+
+.menu {
+    display: flex;                /* Transformation en flexbox */
+    padding:0;                    /* Suppression des marges internes */
+    background-color: #ff8000;       /* Ajout de la couleur d'arrière-plan */
+    justify-content: space-around;/* Alignements des liens dans le menu */
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+  
+}
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: #000000;    /* Arrière-plan */
+    color: #FFF;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+    
+    transition: all 0.5s ;          /* Ajout des effets de transition */
+}
+.menu a.actif {    
+    background-color: #000000; 
+    color: #1ABC9C ;
+    border-color: #000000;
+}
+.menu a:hover,
+.menu a:hover.actif{
+    background-color: #000000;
+    color: #ffe843;
+    border-color: #000000;
+}
+
+span
+{
+	font-weight: bold;
+	color: red;
+}
+fieldset {
+	
+	    background-color: #ff8000; 
+}
+
+
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+#button1 {
+
+
+    height: 150px;width: 150px ;
+}

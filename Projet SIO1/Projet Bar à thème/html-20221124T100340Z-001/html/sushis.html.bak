@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+
+		<title> Sushis Nitchy </title>
+		<metacharset="utf-8">
+		
+		<link rel="shortcut icon" href="favicon.ico"/>
+			 <link rel="stylesheet" href="logo.css">
+			 
+	</head>
+
+	<body>
+		<center>
+		
+		
+
+
+		<h1> SUSHIS NITCHY </h1>
+		
+		<hr>
+		
+		
+		
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+		<img src="logov3.png" alt="Image" style="width:70px;height:55px;">
+
+		<hr>
+		
+	<br>
+	
+	<!-- debut du code html pour le menu--> 
+				<div class="m">
+<nav>
+  <ul>
+    <li class="deroulant"><a href="sushis.html">Accueil &ensp;</a> <!-- Bouton afficher et la page qu'elle renvoie -->
+      <ul class="sous">
+        <li><a href="sushis.html">Horraire</a></li>
+        <li><a href="sushis.html">Plat du Chef</a></li>
+        <li><a href="sushis.html">Adresse</a></li>
+      </ul>
+    </li>
+    <li class="deroulant"><a href="carte.html">Carte &ensp;</a>
+      <ul class="sous">
+        <li><a href="carte.html">Sushis</a></li>
+        <li><a href="carte.html">Menu</a></li>
+        <li><a href="carte.html">Nems</a></li>
+      </ul>
+    </li>
+			<li>
+                <a href="histoire.html">Histoire</a>
+              </li>
+			<li>
+				<a href="contact.html">Quizz</a>
+              </li>
+  </ul>
+</nav>
+				</div>
+
+	<!-- fin du code html pour le menu--> 
+	
+	<br>
+	<br>
+	
+		<h2> VOICI LES HORRAIRES D'OUVERTURE </h2>
+			<ul>
+			<li> <strong>Lundi</strong>: Fermé </li>
+	<br>
+			<li> <strong>Mardi</strong>: 9:30 à 23:30 </li>
+	<br>
+			<li> <strong>Mercredi</strong>: 10:30 à 23:00 </li>
+	<br>
+			<li> <strong>Jeudi</strong>: 11:00 à 23:00 </li>
+	<br>
+			<li> <strong>Vendredi</strong>: 15:00 à 23:00 </li>
+	<br>
+			<li> <strong>Samedi</strong>: 10:30 à 22:30 </li>
+	<br>
+			<li> <strong>Dimanche</strong>: Fermé </li>
+			
+			
+			</ul>
+
+
+								
+<figure id="fig">
+    <img src="https://www.planetsushi.fr/img/zoom/2892/karaage-4-pieces.png" 
+         alt="Bol Spécialité du chef">
+    <figcaption> <span> Poulet Spécialité du chef </span> </figcaption>
+</figure>
+
+</center>
+
+	</body>
+	
+	</html>
