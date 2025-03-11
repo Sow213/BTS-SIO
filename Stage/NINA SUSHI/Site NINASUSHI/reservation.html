@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation de Box de Sushis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"], input[type="email"], input[type="tel"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #ff6347;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #d24c35;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://zupimages.net/up/24/21/j6l7.png" alt="Logo Nina Sushis">
+        <h1>Réservation de Box de Sushis</h1>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="reservation.html">Réservation</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="container">
+        <form action="#" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telephone">Téléphone :</label>
+            <input type="tel" id="telephone" name="telephone" required>
+
+            <label for="nombre_personnes">Nombre de personnes :</label>
+            <input type="number" id="nombre_personnes" name="nombre_personnes" required>
+
+            <label for="date">Date de réservation :</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="heure">Heure de réservation :</label>
+            <input type="time" id="heure" name="heure" required>
+
+            <label for="message">Message (facultatif) :</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <input type="submit" value="Réserver">
+        </form>
+    </div>
+</body>
+</html>

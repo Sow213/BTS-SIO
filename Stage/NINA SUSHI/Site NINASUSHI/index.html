@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nina Sushis - Vente de sushis à emporter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .menu-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .menu-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://zupimages.net/up/24/21/j6l7.png" alt="Logo Nina Sushis">
+        <h1>Nina Sushis</h1>
+        <p>Les meilleurs sushis à emporter de la ville</p>
+    </header>
+    <nav>
+        <a href="#home">Accueil</a>
+        <a href="reservation.html">Réservation</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2>Bienvenue chez Nina Sushis</h2>
+            <p>Découvrez notre délicieuse gamme de sushis, makis et autres spécialités japonaises. Commandez facilement et emportez vos plats préférés.</p>
+        </section>
+        <section id="menu" class="menu-section">
+            <h2>Notre Menu</h2>
+            <div class="menu-item">
+                <img src="https://cf-prod.sushishop.fr/img2/19439/1920/1920/cover/center/auto/auto/19439.jpg" alt="Sushi 1">
+                <h3>Assortiment de Sushis</h3>
+                <p>Un mélange parfait de sushis frais pour satisfaire tous les goûts.</p>
+                <p>Prix: 20€</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://cf-prod.sushishop.fr/img2/19445/614/614/cover/center/webp/auto/19445.webp" alt="Sushi 2">
+                <h3>Maki Saumon</h3>
+                <p>Délicieux makis au saumon frais, préparés avec soin.</p>
+                <p>Prix: 15€</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://cf-prod.sushishop.fr/img2/21881/614/614/cover/center/webp/auto/21881.webp" alt="Sushi 3">
+                <h3>Sashimi</h3>
+                <p>Fines tranches de poisson cru, d'une fraîcheur incomparable.</p>
+                <p>Prix: 18€</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous</h2>
+            <p>Adresse: 14 Cheminement le Tintoret, Toulouse, France</p>
+            <p>Téléphone: +33 6 25 60 77 03</p>
+            <p>Email: nina312008@hotmail.com</p>
+        </section>
+    </div>
+    <footer>
+        &copy; 2024 Nina Sushis. Tous droits réservés.
+    </footer>
+</body>
+</html>

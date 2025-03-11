@@ -1,0 +1,459 @@
+html, body { height: 100% }
+
+
+@import url('custom-fonts.css');
+
+html { 
+  margin:0;
+  padding:0;
+ background: url(../images/01.jpg);
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+  background-color:#000;
+ background-position:center;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+
+
+
+body {
+      padding-bottom: 0px;
+      color: #5a5a5a;
+    }
+
+.page {
+    min-height: 100%;
+    position: relative;
+}
+
+.bloc-principal {
+    padding-bottom: 160px;
+}
+
+.main-header {
+  text-align: center;
+  padding: 52px 0;
+  border-bottom: 1px solid #ccc;
+ background: url(../images/fd.png);
+}
+
+
+
+.logo {
+    float: left;
+    margin-top:-125px;
+}
+
+.logo1 {
+position:absolute;
+    margin:30px 0px 0px 0px;
+    padding:0;
+    background-repeat:no-repeat;
+    width:327px;
+    height:185px;
+    background-image: url(../images/logo11.png);
+    }
+
+.telacc {
+color: white;
+    font-family: "Play",sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 50px;
+    padding: 0px 0px 20px 20px; 
+    }
+    
+.livr {
+color: white;
+    font-family: "Play",sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 25px;
+    padding: 0px 20px 20px 0px; 
+    }
+
+.salle {
+color: white;
+    font-family: "Play",sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 30px;
+    color:#de2827;
+    padding: 0px 0px 0px 20px;  
+    }
+
+
+.zone {
+    color:#de2827;
+
+    }   
+
+.zone:hover {
+    color:#de2827;
+
+    }
+.foot {
+    color:white;
+    font-size:19px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:left;
+    padding:0px 15px;
+    width:360px;
+
+    }
+.tel {
+    color:white;
+    font-size:19px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height:20px;
+    margin-top:-90px;
+
+    }
+    
+.sept {
+    color:white;
+    font-size:19px;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height:20px;
+
+    }
+
+.pied {
+    width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    text-align:left;    
+    
+    }
+    
+.txtmenu  {
+    text-decoration:none;
+    color:yellow;
+    font-size:23px;
+  font-family:'Play', sans-serif;
+  padding:6px 50px 2px;
+  font-style:italic;
+  border-bottom:1px dashed #ccc;
+    
+    }
+    
+    
+.txtprice  {
+    color:white;
+    font-size:22px;
+    text-align:center;
+    font-weight:bold;
+      font-family:'Cabin', sans-serif;
+      font-style:italic;
+    
+    }
+.liz {
+    width:220px;
+    height:10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    background: url(../images/liz.png);
+    
+    }
+
+
+#menugauche{
+    font-size:14px;
+    color:white;
+    float:left;
+    position:relative;
+    }
+    
+#menugauche ul{
+    font-size:14px;
+    color:white;
+    background-color:#ccc;
+    border-radius: 5px;
+    padding:1px 8px 2px 8px;
+    }
+    
+#menugauche li{
+    font-size:14px;
+    color:white;
+    list-style:none;
+    }
+
+#menugauche li > a{
+    font-size:14px;
+    color:#4C4C4C;
+    float:left;
+    list-style:none;
+    font-weight:bold;
+    background-color:#fff;
+    border-radius: 4px;
+     font-family:'Cabin', sans-serif;
+    margin:5px 0px;
+    padding:0px 6px 0px 6px;
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(left,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0.9))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6ffffff',GradientType=1 ); /* IE6-8 */
+    }
+
+#menugauche li > a:hover{
+    font-size:14px;
+     font-family:'Cabin', sans-serif;
+    color:#4C4C4C;
+    float:left;
+    list-style:none;
+    background-color:#f7c93c;
+    text-decoration:none;
+        font-weight:bold;
+    border-radius: 4px;
+    margin:5px 0px;
+    padding:0px 6px 0px 6px;
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-linear-gradient(left,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0.9))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0.9) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#e6ffffff',GradientType=1 ); /* IE6-8 */
+    }
+        
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 10px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+     .navbar-inner {
+    float: right;
+    margin: -20px 0 0;
+    top: 0;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 16px 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size:12px;
+  font-family: 'Play', sans-serif;
+  font-weight:bold;
+}
+
+.navbar .nav > li > a:hover {
+  float: none;
+  padding: 10px 16px 5px;
+  color: #fff;
+  text-decoration: none;
+  font-size:12px;
+  font-family: 'Play', sans-serif;
+  background-color:#5d858a;
+  border-radius: 5px;
+}
+
+      .carousel .item {
+        height: 500px;
+      }
+      
+      .salle {
+color: white;
+    font-family: "Play",sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+    color:#de2827;
+    padding: 0px 0px 0px 20px;  
+    }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+      
+      h2 {
+  font-size: 32px;
+  color:white;
+  font-family:'Play', sans-serif;
+  padding:6px 20px;
+  font-style:normal;
+}
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+      .txtmenu {
+    border-bottom: 1px dashed #ccc;
+    color: yellow;
+    font-family: "Play",sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    padding: 6px 50px 2px;
+    text-decoration: none;
+}
+      
+      .liz {
+    display: block;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+    }
