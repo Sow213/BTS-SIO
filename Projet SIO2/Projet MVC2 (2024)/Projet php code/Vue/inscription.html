@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inscription</h1>
+        <form action="../Controleur/inscription_process.php" method="post">
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" required><br>
+
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prenom" required><br>
+
+            <label for="profession">Profession:</label>
+            <input type="text" name="profession" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br>
+
+            <input type="submit" value="S'inscrire">
+        </form>
+        <form action="connexion.php" method="post">
+            <input type="submit" value="Connexion">
+        </form>
+    </div>
+</body>
+</html>
